@@ -1,0 +1,10 @@
+{
+  "name": "swiftbar-sound-input",
+  "version": "0.0.1",
+  "description": "Sound input plugin for Swiftbar",
+  "main": "index.js",
+  "repository": "git@github.com:kyen99/swiftbar-sound-input.git",
+  "author": "Kai Yen <kyen99@gmail.com>",
+  "license": "MIT",
+  "private": false
+}

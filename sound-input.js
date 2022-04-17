@@ -1,7 +1,10 @@
 #!/usr/bin/env zx
 
 /*
-Shows selected sound input and allows changing
+
+Shows currently selected sound input and allows changing
+Automatically sets sound input to preferred zoom input if zoom is in a meeting
+
 by Kai Yen
 
 <xbar.title>Sound Input</xbar.title>
@@ -15,6 +18,7 @@ by Kai Yen
 <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
 <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
 <swiftbar.hideSwiftBar>true</swiftbar.hideSwiftBar>
+
 */
 
 const PREFERRED_ZOOM_INPUT = 'Elgato Wave:3'
