@@ -51,7 +51,7 @@ const getIcon = (s) => {
     selectedInput !== PREFERRED_ZOOM_INPUT &&
     (await zoomIsInMeeting())
   ) {
-    await quiet($`${CMD} -t input -s "${PREFERRED_ZOOM_INPUT}"`)
+    await quiet($`${CMD} -t input -s ${PREFERRED_ZOOM_INPUT}`)
     selectedInput = await getSelectedInput()
   }
 
